@@ -76,7 +76,7 @@
 			<minDepth>0.001</minDepth>
 		</gazebo>
 		<!-- ros_control plugin -->
-		<gazebo>
+		<!-- <gazebo>
             <selfCollide>true</selfCollide>
 			<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
 				<robotNamespace>/${namespace}</robotNamespace>
@@ -84,6 +84,6 @@
 				<robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
                 <legacyModeNS>true</legacyModeNS>
 			</plugin>
-		</gazebo>
+		</gazebo> -->
 	</xacro:macro>
 </robot>
